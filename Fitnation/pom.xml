@@ -12,6 +12,15 @@
   
   </dependencies>
   <build>
+  <resources>
+  <resource>
+                <directory>src</directory>
+                <includes>
+                    <include>img/*.jpg</include>
+                    <include>img/*.png</include>
+                </includes>
+            </resource>
+        </resources>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
