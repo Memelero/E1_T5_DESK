@@ -93,6 +93,9 @@ public class intro extends JFrame {
         btnNewButton.setForeground(new Color(255, 255, 255));
         btnNewButton.addActionListener(new ActionListener() {
         	public void actionPerformed(ActionEvent e) {
+        		registro registro = new registro();
+				registro.setVisible(true);
+				dispose();
         	}
         });
         btnNewButton.setBackground(new Color(255, 128, 64));
